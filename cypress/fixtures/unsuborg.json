@@ -1,0 +1,25 @@
+{
+
+    "subscription": "TRIAL",
+    "subscriptionDuration": "MONTHLY",
+    "serviceProvider": true,
+    "partProvider": false,
+    "subscription_canceled": false,
+    "stripe_enabled": false,
+    "vat": 0,
+    "fullName": "test org",
+    "country": "UNITED ARAB EMIRATES",
+    "countryId": {
+      "$oid": "658236e68c9edea5f3cdb6b7"
+    },
+    "city": "DUBAI",
+    "email": "had3@yopmail.com",
+    "address": "123",
+    "subscribedOn": 1706696814756,
+    "subscriptionId": null,
+    "subscriptionMethod": "STRIPE",
+    "stripe_promotion": [],
+    "__v": 0,
+    "stripe_customer_id": null,
+    "stripe_payment_method": null
+  }
