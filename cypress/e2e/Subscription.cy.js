@@ -8,7 +8,7 @@ describe('Subscription',()=>{
         cy.intercept({
             method: 'GET',
 
-            url: 'https://test.autocore.io/api/organizations/get/franchise'
+            url: 'https://test.example.io/api/organizations/get/franchise'
         }, {
             fixture: 'unsuborg.json'
         }

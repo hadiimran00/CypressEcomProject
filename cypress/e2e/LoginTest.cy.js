@@ -1,6 +1,6 @@
 describe('Login Page Test', function() {
     beforeEach(function() {
-        cy.visit('https://uat.autocore.io');
+        cy.visit('https://uat.example.io');
         cy.scrollTo('bottom'); 
     });
 

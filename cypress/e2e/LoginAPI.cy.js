@@ -7,7 +7,7 @@ describe('Login API', () => {
       method: 'POST',
       url: 'https://test.example.com/api/users/login',
       body: {
-        email: "nashit@example.com",
+        email: "mhadi@example.com",
         password: "abc123++"
       }
 
@@ -60,7 +60,7 @@ describe('Login API', () => {
       method: 'POST',
       url: 'https://test.example.com/api/users/login',
       body: {
-        email: "nashit@example.com",
+        email: "mhadi@example.com",
         password: ""
       },
       
@@ -96,7 +96,7 @@ describe('Login API', () => {
       method: 'POST',
       url: 'https://test.example.com/api/users/login',
       body: {
-        email: "nashit@example.com",
+        email: "mhadi@example.com",
         password: "ABC123++"
       },
       

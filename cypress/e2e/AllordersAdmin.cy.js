@@ -1,7 +1,7 @@
 describe('All Orders Tab', () => {
     before('Login', () => {
         cy.session('my-session', () => {
-            cy.LoginAndNav('asjad@example.com', 'Theasjad666', 'All Orders');
+            cy.LoginAndNav('mhadi@example.com', 'Themhadi666', 'All Orders');
         });
     });
 

@@ -23,7 +23,7 @@ describe('SignUp Page', ()=>{
         cy.get('[name="confirmPassword"]').type('@Qwerty123');
         //  cy.get('[id="login-button"]').click()
 
-        cy.intercept('https://test.autocore.io/api/users/email/otp').as('OTP')
+        cy.intercept('https://test.example.io/api/users/email/otp').as('OTP')
         cy.wait('@OTP').its('response.statusCode').should('eq', 200);
 
 

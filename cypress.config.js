@@ -16,7 +16,7 @@ module.exports = defineConfig({
   
   e2e: {
    // testIsolation: false, // Disable test isolation to maintain cookies across tests
-    baseUrl: 'https://uat.autocore.io/',
+    baseUrl: 'https://uat.example.io/',
    // experimentalStudio: true,
 
     // Import Cypress plugins

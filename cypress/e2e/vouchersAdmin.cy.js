@@ -31,8 +31,8 @@ describe('Vouchers Tab', () => {
     beforeEach('Login', () => {
         cy.session('my-session', () => {
             cy.visit('/');
-            cy.get('[type="text"]').type('asjad@example.com');
-            cy.get('[type="password"]').type('Theasjad666');
+            cy.get('[type="text"]').type('mhadi@example.com');
+            cy.get('[type="password"]').type('Themhadi666');
             cy.get('#login-button').click();
             cy.wait(10000)  
         });

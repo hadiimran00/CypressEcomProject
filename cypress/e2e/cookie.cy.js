@@ -6,7 +6,7 @@ describe('Login Page Test', function () {
 
   // Custom command for logging in
   Cypress.Commands.add('postTokenLogin', () => {
-    cy.intercept('POST', 'https://test.autocore.io/api/users/login').as('loginRequest');
+    cy.intercept('POST', 'https://test.example.io/api/users/login').as('loginRequest');
 
     cy.visit('/');
     cy.get('#email-address-input').type(loginData.email);
@@ -36,7 +36,7 @@ describe('Login Page Test', function () {
       cy.getLocalStorage('token').then((token) => {
         cy.request({
           method: 'GET',
-          url: 'https://test.autocore.io/api/users/getall',
+          url: 'https://test.example.io/api/users/getall',
           headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${token}`,
