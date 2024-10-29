@@ -1,6 +1,6 @@
 # E-Commerce Application Portal - Cypress Testing Suite
 
-Welcome to the **Cypress Testing Suite** for the **E-Commerce Application Portal**! This project is designed to ensure the robustness and reliability of our e-commerce platform through automated testing.
+Welcome to the **Cypress Testing Suite** using JavaScript for the **E-Commerce Application Portal**! This project is designed to ensure the robustness and reliability of our e-commerce platform through automated testing.
 
 **Note**: For privacy reasons, actual URLs have been replaced with examples.
 
