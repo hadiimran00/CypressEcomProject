@@ -20,7 +20,7 @@ describe('Banners Tab', () => {
         cy.get('[name="name"]').type('testbanner');
         cy.get('[name="sequence"]').clear().type('0');
         cy.get('input[type="file"]').attachFile(fileName);
-        cy.wait(2000); // Consider using a more specific wait if possible
+        cy.wait(2000);
         cy.get('[type="button"]').contains('Submit').click();
 
         // Assert success notification
